@@ -1,6 +1,7 @@
 import { RichTextProps } from './types';
 
-import { IFrame, Image, Video, Class, Link, Audio } from './elements';
+//import { IFrame, Image, Video, Class, Link, Audio } from './elements';
+import { Image } from './elements';
 
 function FallbackForCustomAsset({ mimeType }: { mimeType: string }) {
   if (__DEV__) {
